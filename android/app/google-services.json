@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "212142120108",
+    "firebase_url": "https://cf-tracker-pro.firebaseio.com",
+    "project_id": "cf-tracker-pro",
+    "storage_bucket": "cf-tracker-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212142120108:android:0149fdd3e91875099bd309",
+        "android_client_info": {
+          "package_name": "com.bk1031.cf_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212142120108-7tu19rc7m135efu7ftesubl5he1a55o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz_Sw3rE4h1uR5xpuSjlg1KqQjV69NHok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212142120108-7tu19rc7m135efu7ftesubl5he1a55o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
