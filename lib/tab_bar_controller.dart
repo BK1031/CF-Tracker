@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:cf_tracker/pages/history/history_page.dart';
 import 'package:cf_tracker/pages/home/home_page.dart';
 import 'package:cf_tracker/pages/settings/settings_page.dart';
 import 'package:cf_tracker/user_info.dart';
@@ -20,6 +21,7 @@ class _TabBarControllerState extends State<TabBarController> {
 
   int currTab = 0;
   Widget _homeBody = new HomePage();
+  Widget _historyBody = new HistoryPage();
   Widget _settingsBody = new SettingsPage();
   Widget body;
 
@@ -56,6 +58,9 @@ class _TabBarControllerState extends State<TabBarController> {
         body = _homeBody;
       }
       else if (currTab == 1) {
+        body = _historyBody;
+      }
+      else if (currTab == 2) {
         body = _settingsBody;
       }
     });
@@ -88,6 +93,10 @@ class _TabBarControllerState extends State<TabBarController> {
           new BottomNavigationBarItem(
               icon: new Icon(Icons.home),
               title: new Text("Home")
+          ),
+          new BottomNavigationBarItem(
+              icon: new Icon(Icons.track_changes),
+              title: new Text("History")
           ),
           new BottomNavigationBarItem(
               icon: new Icon(Icons.settings),

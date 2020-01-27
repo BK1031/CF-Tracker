@@ -5,7 +5,7 @@ import 'package:fluro/fluro.dart';
 final router = Router();
 final RouteObserver<PageRoute> routeObserver = new RouteObserver<PageRoute>();
 
-Version appVersion = new Version("0.0.1+1");
+Version appVersion = new Version("1.0.0+1");
 String appStatus = "";
 String appFull = "Version ${appVersion.toString()}";
 
